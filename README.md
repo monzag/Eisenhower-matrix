@@ -145,7 +145,7 @@ __Instance methods__
 * ##### ` __init__(self, title, deadline)`
   
   Constructs an ToDoItem object
-  Raises ValueError if type of any argument is incorrect
+  Raises TypeError if type of any argument is incorrect
 
 * `mark(self)`
   
