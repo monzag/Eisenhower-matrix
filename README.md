@@ -118,7 +118,53 @@ Bob is a beginner Codecooler. He is a good self-learner, but he has a problem to
 ## The specification
 
 ### `main.py`
-TODO
+
+__Functions__
+
+* 'show_welcome'
+  
+   Returns welcome board.
+
+
+* 'add_new_item_'
+
+   Add new item to proper quarter.
+
+
+* 'choose_status'
+
+   User choice status, set inputs.
+
+
+* 'mark_done'
+   
+   Sets Item attribute *is done* to True.
+
+
+* 'unmark done'
+
+   Sets Item attribute *is done* to False.
+
+
+* 'remove_item'
+
+   Remove item from quarter by status.
+
+
+* 'get input'
+
+   Get list of inputs from user.
+
+
+* 'save_todo'
+
+   Save all items to file.
+
+
+* 'menu'
+   
+   Choose option and start program.
+
 
 ### `todo_item.py`
 
@@ -218,6 +264,10 @@ __Instance methods__
   ```
   
   Hint: use instance method *__str__()* from class *TodoItem*
+
+* '__len__(self)'
+
+  Returns length of list object. 
 
 
 ### `todo_matrix.py`
