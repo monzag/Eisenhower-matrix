@@ -54,13 +54,3 @@ class TodoItem():
             return '[x] ' + str(self.deadline.day) + '-' + str(self.deadline.month) + ' ' + self.title
         else:
             return '[ ] ' + str(self.deadline.day) + '-' + str(self.deadline.month) + ' ' + self.title
-
-    def __len__(self):
-        '''
-        Method returns length of attribute title.
-
-        Returns:
-            int
-        '''
-
-        return len(self.title)
